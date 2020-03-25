@@ -1,0 +1,64 @@
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.hero-wrapper .hero-body-wrapper {
+    margin-right: 10px;
+}
+
+.hero-wrapper .hero-body-wrapper:last-child {
+    margin-right: 0;
+}
+
+.hero-wrapper .hero-body {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border: 2px solid greenyellow;
+}
+
+.hero-wrapper .hero-body .hero-health-bar {
+    display: block;
+    height: 100%;
+    background: greenyellow;
+}
+
+.hero-wrapper .hero-body--enemy {
+    border: 2px solid darkorange;
+}
+
+.hero-wrapper .hero-body--enemy .hero-health-bar {
+    background: darkorange;
+}
+
+.hero-body span.health {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button {
+    min-width: 160px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+.button--attack {
+    background: red;
+}
+
+.button--heal {
+    background: greenyellow;
+}
+
+.button--grey {
+    background: darkgrey;
+}
+
+.buttons .button:last-child {
+    margin-right: 0;
+}

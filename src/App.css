@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+.fight-logs {
+  max-width: 600px;
+  margin: 30px auto 0;
+}
+.logs {
+  padding: 6px;
+}
+.logs-your {
+  background: #FFEB3B;
+}
+.logs-enemy {
+  background: red;
+}
+.logs-heal {
+  background: #48ff00;
+}
